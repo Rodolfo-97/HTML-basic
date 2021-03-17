@@ -1,8 +1,8 @@
 ## Definition List
 
-*언제 사용해야하나?
-    *정의형 목록을 만들 때 사용.
-    *key - value로 정보를 제공할 때 사용 
+-언제 사용해야하나?
+    -정의형 목록을 만들 때 사용.
+    -key - value로 정보를 제공할 때 사용 
 
 ```html
 <dl>
@@ -17,11 +17,14 @@
     </dd>
 </dl>
 ```
-### dl태그: Definition List로 정의 목록을 나타내는 태그이다.
+### dl태그 
+- Definition List로 정의 목록을 나타내는 태그이다.
 
-### dt태그: Definition Term으로 정의할 용어를 나타낸다.
+### dt태그
+- Definition Term으로 정의할 용어를 나타낸다.
 
-### dd태그: Definition Description 정의된 제목(dt태그)에 대한 설명을 나타낸다.
+### dd태그 
+- Definition Description 정의된 제목(dt태그)에 대한 설명을 나타낸다.
 
 
 ## 주의사항
