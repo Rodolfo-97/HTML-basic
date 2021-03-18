@@ -18,29 +18,29 @@
 ## 예시코드
     ```html
         <form action="#" method="POST">
-        <label for="user-name">이름</label>
-        <input type="text" id="user-name" placeholder="이름" required>
+            <label for="user-name">이름</label>
+            <input type="text" id="user-name" placeholder="이름" required>
 
-        <label for="user-id">아이디</label>
-        <input type="text" id="user-id" minlength="5" maxlength="10" placeholder="최소 5자,최대 10자" required>
+            <label for="user-id">아이디</label>
+            <input type="text" id="user-id" minlength="5" maxlength="10" placeholder="최소 5자,최대 10자" required>
 
-        <label for="user-pwd">비밀번호</label>
-        <input type="password" id="user-pwd" minlength="6" maxlength="12" placeholder="최소 6자,최대 12자" required>
+            <label for="user-pwd">비밀번호</label>
+            <input type="password" id="user-pwd" minlength="6" maxlength="12" placeholder="최소 6자,최대 12자" required>
 
-        <label for="user-email">이메일</label>
-        <input type="email" id="user-email" placeholder="이메일">
+            <label for="user-email">이메일</label>
+            <input type="email" id="user-email" placeholder="이메일">
 
-        <label for="user-tel">전화번호</label>
-        <input type="tel" id="user-tel" placeholder="전화번호(***-****-****)" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
+            <label for="user-tel">전화번호</label>
+            <input type="tel" id="user-tel" placeholder="전화번호(***-****-****)" required pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}">
 
-        <label for="user-age">만 나이</label>
-        <input type="number" id="user-age" min="12" max="122" placeholder="12세 이상 122세 이하">         
-        
-        <label for="user-profile">프로필 사진</label>
+            <label for="user-age">만 나이</label>
+            <input type="number" id="user-age" min="12" max="122" placeholder="12세 이상 122세 이하">         
+            
+            <label for="user-profile">프로필 사진</label>
 
-        <input type="file" id="user-profile" accept=".png,.jpg" placeholder="PNG,JPG만 허용">
-        <button type="submit">
-            가입하기
-        </button>
-    </form>
+            <input type="file" id="user-profile" accept=".png,.jpg" placeholder="PNG,JPG만 허용">
+            <button type="submit">
+                가입하기
+            </button>
+        </form>
     ```
