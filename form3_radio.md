@@ -9,17 +9,16 @@
 
 
 ## 예시코드
+```html
+<form action="#" method="GET">
+<label for="sub">구독중</label>
+<input type="radio" id="sub" name="subscription" value="sub">
 
-    ```html
-        <form action="#" method="GET">
-        <label for="sub">구독중</label>
-        <input type="radio" id="sub" name="subscription" value="sub">
-
-        <label for="unsub">미구독</label>
-        <input type="radio" id="unsub" name="subscription" value="unsub">
+<label for="unsub">미구독</label>
+<input type="radio" id="unsub" name="subscription" value="unsub">
         
-        <button type="submit">
-            제출하기
-        </button>
-        </form>
-    ```
+<button type="submit">
+   제출하기
+</button>
+</form>
+```
