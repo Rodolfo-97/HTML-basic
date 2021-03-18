@@ -17,7 +17,7 @@
 
 ## 예시코드
 
-    ```html
+```html
         <form action="#" method="POST">
             <label for="user-name">이름</label>
             <input type="text" id="user-name" placeholder="이름" required>
@@ -44,4 +44,4 @@
                 가입하기
             </button>
         </form>
-    ```
+```
