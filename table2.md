@@ -21,6 +21,7 @@
 
 ```html
 <table>
+     <thead>          
         <tr>
             <th></th>
             <th scope="col">월</th>
@@ -29,6 +30,9 @@
             <th scope="col">목</th>
             <th scope="col">금</th>
         </tr>
+    </thead>
+    
+    <tbody>
         <tr>
             <th scope="row">1교시</th>
             <td rowspan="2">왕초보 HTML and CSS</td>
@@ -56,7 +60,8 @@
         <tr>
             <td colspan="6">점심시간</td>
         </tr>
-    </table>
+     </tbody>  
+  </table>
 ```
 
 - rowspan과 colspan으로 인해 데이터들이 병합되면 병합된 데이터의 자리는 이미 찼기 떄문에 따로 적어주지 않는다.
