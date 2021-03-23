@@ -9,6 +9,7 @@
     - action: 사용자가 입력한 값을 보낼 주소
     - method: 입력값의 전송방법
         - post(url에 입력값을 숨김)과 get(url에 입력값이 나타남)
+            - post는 보내는 데이터의 길이 제한이 없지만 get은 길이 제한이 있다.
     - autocomplete : 자동 완성. on으로 하면 form 전체에 자동 완성 허용
 
 ## input 태그 
