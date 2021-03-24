@@ -6,16 +6,16 @@
 
 ### HTML sectioning elements
 
-- sectioning element들은 반드시 heading 태그로 각 section의 제목을 정의해 주어야 한다.
+- **sectioning element들은 반드시 heading 태그로 각 section의 제목을 정의해 주어야 한다.**
 
 - &lt;nav&gt;: HTML 문서의 탐색 링크를 정의함 ex) 메뉴.
 
 - &lt;section&gt;: HTML 문서에서 섹션(section) 부분을 정의함.
 div로 나눠주는 것보다 시멘틱하게 할 수 있음.
 
-- &lt;article&gt;: HTML 문서에서 독립적인 하나의 글(article) 부분을 정의함 ex)기사, 블로그.
+- &lt;article&gt;: HTML 문서에서 독립적인 하나의 글(article) 부분을 정의함 ex) 기사, 블로그.
 
-- &lt;aside&gt;: HTML 문서에서 페이지 부분 이외의 콘텐츠(content)를 정의함. 
+- &lt;aside&gt;: 논리적으로는 완결되었지만 HTML 문서에서 페이지 부분 이외의 콘텐츠(content)를 정의함. 
 
 
 ## sectioning element는 아니지만 문서의 구조를 잡을 때 쓰는 태그
