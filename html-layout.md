@@ -1,7 +1,7 @@
 ## HTML - Layout
 
 
-![HTML - sectioning elements](https://www.w3schools.com/html/img_sem_elements.gif)
+![HTML - sectioning elements](https://t1.daumcdn.net/cfile/tistory/99FAA2445BE2455D2B)
 
 
 ### HTML sectioning elements
