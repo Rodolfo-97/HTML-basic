@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- datalist -->
+    <!-- datalist 태그는 input 요소에서 사용하기 위한 옵션들의 리스트를 미리 정의할 때 사용 -->
+    <!-- dropdown 으로 나타남. -->
+    <form action="#">
+        <input type="number" name="age" list="age">
+        <datalist id="age">
+            <!-- 어떤 datalist가 input 요소의 list인지 설정하기 위해 input 태그의 list 값과 datalist의 id 값이 일치해야한다.-->
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+        </datalist>
+
+        <input type="text" name="department" list="department">
+        <datalist id="department">
+            <option value="컴퓨터공학">컴퓨터공학</option>
+            <option value="스페인어">스페인어</option>
+            <option value="수학">수학</option>
+            <option value="영어교육">영어교육</option>
+        </datalist>
+
+        <input type="submit">
+    </form>
+</body>
+</html>
