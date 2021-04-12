@@ -30,6 +30,45 @@
 
 - **ul과 ol태그의 직계자식태그로는 반드시 li태그만 올 수 있다!!**
 
+## list 태그와 관련된 css속성
+
+### list-style-type
+
+- li들을 가르키는 점이나 숫자들의 마커를 변경할때 쓰는 속성이다.
+
+```css
+    .circle { list-style-type: circle; }
+    .square { list-style-type: square; }
+    .upperAlpha { list-style-type: upper-alpha; }
+    .lowerRoman { list-style-type: lower-roman; }
+```
+  
+### list-style-image
+
+- li들을 가르키는 마커를 원하는 image로 변경할 수 있다.
+
+```css
+ .imageMarker {
+     list-style-image: url("이미지 주소"); 
+    }
+```
+
+### list-style-position
+
+- li들의 위치를 조정한다.
+
+```css
+.position {
+    .outside { 
+        list-style-position: outside; 
+        }
+    .inside {
+        list-style-position: inside; 
+        }
+}
+```
+
+
 
 
 
